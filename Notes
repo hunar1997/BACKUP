@@ -1,0 +1,85 @@
+show random packages from atp:
+	apt-cache search .| grep -v ^lib | shuf -n 2
+
+sudo apt install webots
+
+download the 3GB files for the unreal_engine
+download the 400MB files for android studio
+
+download gnome3 desktop enviroment
+
+do-release-update
+
+download latest gitkracken
+
+make two frequency with two phones whith slight difference to make beaps every second
+
+gnome-desktop-item-edit /usr/share/applications --create-new [gnome-panel]
+
+ffmpeg -i input -vf scale=iw/2:-1 output
+
+
+git fetch --depth 1
+git reset --hard origin/master
+scons platform=x11 builtin_openssl=yes
+
+
+
+
+Enable GPU
+sudo apt-get install nvidia-cuda-toolkit nvidia-modprobe
+
+
+vim intro:
+	gg=g [auto format]
+
+	find [find files and open it]
+	? [find word]
+	tab [move forward through suggestion]
+	shift-tab [backward]
+	ctrl-q [unlock]
+	ctrl-w [then s or v for split type .. and arrow or hjkl keys to move .. and before the ctrl-w type number to set its size]
+	15G [go to line 15]
+	v [visual mode]  V [select whole line]
+	y [yank (copy)]
+	p [paste]
+	x [delete one character]
+	w [beggining of next word]
+	e [last of this word]
+	b [privious word]
+	o [new line below]  O [new line above]
+	0 [begginging of line]    $ [end of line]
+	G [last line]   gg [first line]
+
+	q<letter><commands>q [macro]
+
+
+ranger:
+[its a file explorer]
+:bulkrename [rename in your favoret editor]
+
+
+tmux intro:
+	after ctrl-b
+		c  create window
+		w  list windows
+		n  next window
+		p  previous window
+		f  find window
+		,  name window
+		&  kill window
+
+		%  vertical split
+		"  horizontal split
+
+		arrows   go to pane
+		holdarrows   resize pane
+
+		o  swap panes
+		q  show pane numbers
+		x  kill pane
+
+
+
+ctags:
+ctags -R --c++-kinds=+p --fields=+iaS --extra=+q /usr/include
